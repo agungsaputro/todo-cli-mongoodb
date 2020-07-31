@@ -3,7 +3,7 @@ const Todo = require('../models/todo');
 
 mongoose.Promise = global.Promise;
 
-const db = mongoose.connect('localhost:27017/mean', {useNewUrlParser: true});
+const db = mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true});
 
 
 const list = () =>{
