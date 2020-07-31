@@ -1,13 +1,15 @@
 {
   "name": "todo-cli-monggodb",
   "version": "1.0.0",
-  "description": "",
+  "description": "todo cli with monggodb",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "agung dwi saputro",
   "license": "ISC",
   "dependencies": {
     "@caporal/core": "^2.0.2",
